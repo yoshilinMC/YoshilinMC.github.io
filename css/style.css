@@ -3,14 +3,14 @@
     --font_family: 'Inter', sans-serif; /* 整個設計的字體 */
     --font_size: 16px; /* 基礎字體大小 */
     --background_color: #000; /* 預設背景顏色 */
-    --background_image: url("../img/wallpaper.png"); /* 背景圖片 */
+    --background_image: linear-gradient(lightgray, lightskyblue); /* 背景圖片 */
     --image_border_color: #000; /* 圖片邊框顏色 */
     --image_border_px: 3px; /* 圖片邊框厚度 */
     --image_width: 200px; /* 圖片寬度 */
     --image_height: 200px; /* 圖片高度 */
     --title_color: rgb(139, 72, 72); /* 標題文字顏色 */
     --description_color: #ebaa31; /* 描述文字顏色 */
-    --svg_color: darkseagreen; /* SVG 圖標顏色 */
+    --svg_color: purple; /* SVG 圖標顏色 */
     --menu_background_color: transparent; /* 導航菜單背景顏色 */
     --menu_text_color: rgb(196, 162, 162); /* 導航菜單文字顏色 */
     --menu_active_text_color: #f1c40f; /* 導航菜單活動狀態時的文字顏色 */
@@ -74,7 +74,7 @@
   }
   
   .header_text h2 {
-    color: var(--description_color); /* 描述文字顏色 */
+    color: var(black); /* 描述文字顏色 */
     font-size: 1.3em; /* 字體大小 */
   }
   
