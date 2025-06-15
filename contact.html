@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="JaclynChiang">
-    <title>Contact - Jaclyn Chiang</title>
+    <meta name="author" content="YoshiLin">
+    <title>Contact - Yoshi Lin</title>
 
     <style>
         @keyframes hidePreloader {
@@ -37,7 +37,7 @@
         });
     </script>
 
-    <link rel="icon" href="assets/img/brand/logo_tree.png" type="image/png">
+    <link rel="icon" href="assets/img/brand/y.png" type="image/png">
     <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
 </head>
@@ -53,7 +53,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img alt="Logo" src="assets/img/brand/logo_tree.png" id="navbar-logo">
+                <img alt="Logo" src="assets/img/brand/y.png" id="navbar-logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -76,12 +76,12 @@
             <div class="row justify-content-center mb-5 text-center">
                 <div class="col-lg-8">
                     <h2>Contact Me</h2>
-                    <p class="lead lh-180 mt-3">Feel free to leave your message, I will get back to you as soon as possible. :)</p>
+                    <p class="lead lh-180 mt-3">Feel free to leave your message, I will get back to you as soon as possible. :L</p>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <form id="contactForm">
+                    <form id="contactForm" method="post" action="https://fullstackapi-1076213027015.asia-east1.run.app">
                         <div class="form-group">
                             <label for="name">Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="name" placeholder="Your name" required>
@@ -126,7 +126,7 @@
         feather.replace({ width: '1em', height: '1em' });
 
         document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();  // 防止表單真的提交
+            // event.preventDefault();  // 防止表單真的提交
 
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
