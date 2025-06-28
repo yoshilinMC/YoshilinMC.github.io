@@ -3362,8 +3362,8 @@ fieldset:disabled a.btn
 .btn-success
 {
     color: #fff;
-    border-color: #5cc9a7;
-    background-color: #5cc9a7;
+    border-color: #6A0DAD;
+    background-color: #9400D3;
     box-shadow: none;
 }
 .btn-success:hover
@@ -8546,7 +8546,8 @@ a.close.disabled
 
 .bg-primary
 {
-    background-color: #008aff !important;
+    /* background-color: #008aff !important; */
+    background: linear-gradient(50deg, #9e00ff  0, #ffcd00 100%) !important;
 }
 
 a.bg-primary:hover,
@@ -8572,7 +8573,7 @@ button.bg-secondary:focus
 
 .bg-success
 {
-    background-color: #5cc9a7 !important;
+    background: linear-gradient(50deg, #98FF98  0, #90EE90 100%) !important;
 }
 
 a.bg-success:hover,
@@ -8585,7 +8586,7 @@ button.bg-success:focus
 
 .bg-info
 {
-    background-color: #50b5ff !important;
+    background: linear-gradient(50deg, #2E5984  0, #50b5ff 100%) !important;
 }
 
 a.bg-info:hover,
@@ -8611,7 +8612,7 @@ button.bg-warning:focus
 
 .bg-danger
 {
-    background-color: #f25767 !important;
+    background: linear-gradient(50deg, #FBCEB1  0, #FF7518 100%) !important;
 }
 
 a.bg-danger:hover,
@@ -8624,7 +8625,12 @@ button.bg-danger:focus
 
 .bg-light
 {
-    background-color: #eaecf3 !important;
+    background: linear-gradient(50deg, #FF7518  0, #ffcd00 100%) !important;
+}
+
+.bg-light-purple
+{
+    background-color: #9e00ff !important;
 }
 
 a.bg-light:hover,
@@ -14919,7 +14925,7 @@ button.bg-white:focus
 
 .text-primary
 {
-    color: #008aff !important;
+    color: #9966CC !important;
 }
 
 a.text-primary:hover,
@@ -15316,7 +15322,9 @@ button.bg-dark-success:focus
 
 .bg-gradient-success
 {
-    background: linear-gradient(50deg, #5cc9a7 0, #5cc9c8 100%) !important;
+    /* background: linear-gradient(50deg, #6e00ff  0, #510fa8 100%) !important; */
+    /* background: linear-gradient(50deg, #B57EDC  0, #9400D3 100%) !important; */
+    background: linear-gradient(50deg, #9e00ff  0, #ffcd00 100%) !important;
 }
 
 .bg-translucent-success
@@ -20339,10 +20347,16 @@ svg
     background-color: #eaeaf5;
 }
 
+.badge-soft-contact
+{
+    color: #000080;
+    background-color: #FFDF00;
+}
+
 .badge-soft-success
 {
-    color: #5cc9a7;
-    background-color: #def4ed;
+    color: #000080;
+    background-color: #E0B0FF;
 }
 .badge-soft-success[href]:hover,
 .badge-soft-success[href]:focus
