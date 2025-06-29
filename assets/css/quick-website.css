@@ -15927,6 +15927,11 @@ button.bg-gray-dark:focus
     background-color: #fafbfe !important;
 }
 
+.bg-section-third
+{
+    background-color: #fafbfe !important;
+}
+
 .bg-section-light
 {
     background-color: #cbd5e0 !important;
